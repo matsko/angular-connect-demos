@@ -1,0 +1,15 @@
+body, html { padding:0; margin: 0; }
+h1,h2,h3,h4,h5,h6 { padding:0; margin: 0; }
+
+body,html,input,textarea,select,option,pre,code {
+    font-family:"Lucida Grande";
+}
+
+demo_1, demo_2, demo_3, demo_4 {
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    right:0;
+    display:block;
+}

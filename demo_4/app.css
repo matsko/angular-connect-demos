@@ -1,0 +1,17 @@
+:host {
+    background:url(./demo_4/bg.png) no-repeat center center / cover;
+}
+.navigation {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+}
+.navigation button {
+    font-size:3rem;
+    padding:3rem;
+    color:white;
+    cursor:pointer;
+    background:rgba(0,0,0,0.5);
+    border:0;
+}

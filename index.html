@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animation Demos</title>
+    <!--ng2scriptFiles-->
+<script src="https://npmcdn.com/zone.js@0.6.21/dist/zone.js"></script>
+<script src="https://npmcdn.com/reflect-metadata@0.1.3/Reflect.js"></script>
+<script src="https://npmcdn.com/systemjs@0.19.31/dist/system.js"></script>
+<script src="https://npmcdn.com/typescript@2.0.2/lib/typescript.js"></script>
+<link rel="stylesheet" type="text/css" href="/toolbar.css" />
+<script type="text/javascript" src="/toolbar.js"></script>
+
+      <script>
+      document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+          ':35729/livereload.js?snipver=1"></' + 'script>')
+      </script>
+  
+    <script src="./system.config.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script type="text/javascript">
+        System.import('index').catch(console.error.bind(console));
+    </script>
+</head>
+
+<body>
+<demo-app>
+    loading...
+</demo-app>
+</body>
+</html>

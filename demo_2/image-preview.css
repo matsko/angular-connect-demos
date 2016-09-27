@@ -1,0 +1,21 @@
+:host { position:relative; }
+:host img { width:100%; }
+.loading-container:after {
+    content:"";
+    position:absolute;
+    top:30%;
+    left:50%;
+    width:76px;
+    height:76px;
+    border-radius:100px;
+    animation: spin 0.75s infinite linear;
+    transform:translateX(-50%) translateY(50%);
+    border:16px solid maroon;
+    border-top-color:transparent;
+    border-bottom-color:transparent;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
